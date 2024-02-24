@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/Images/footerlogo.png";
 
 const Footer = () => {
     return (
@@ -27,9 +26,6 @@ const Footer = () => {
             <div class="container">
                 <footer class="py-5">
                     <div class="row row-cols-2 row-cols-md-4 text-white">
-                        <div className="d-flex align-items-center">
-                            <img src={Logo} alt="" className="w-50 h-50" />
-                        </div>
                         <div class="">
                             <h4>About</h4>
                             <ul class="nav flex-column">

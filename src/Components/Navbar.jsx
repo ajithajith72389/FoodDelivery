@@ -1,12 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Logo from "../assets/Images/Sabzi.png"
 const Navbar = () => {
     return (
         <div className="container-fluid px-5 header sticky-top">
             <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
                 <Link href="/" className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src={Logo} alt="" />
+                    <h1 className=" title">AJITH</h1>
                 </Link>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
