@@ -28,7 +28,7 @@ const Vegetable=(props)=>{
             if (result.isConfirmed) {
                 Swal.fire({
                     title: "Thank You",
-                    text: "Your product reaches you soon",
+                    text: "Your product will reach you soon",
                     icon: "success"
                 });
             }
