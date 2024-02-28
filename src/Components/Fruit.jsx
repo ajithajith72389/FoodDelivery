@@ -1,14 +1,14 @@
 import { useState } from "react"
 
 const Fruit=(props)=>{
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(1)
 
     const increament = () => {
         setCount(count + 1)
     }
 
     const decreament = () => {
-        if (count > 0) {
+        if (count > 1) {
             setCount(count - 1)
         }
         else {
