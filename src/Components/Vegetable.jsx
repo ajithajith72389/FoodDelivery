@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-
+import Swal from "sweetalert2"
 const Vegetable=(props)=>{
     const [count, setCount] = useState(1)
 
